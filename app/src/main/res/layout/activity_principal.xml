@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".interface_user.Principal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/titulo2"
+            android:layout_marginTop="25dp"
+            android:hint="Formulario">
+
+        </TextView>
+
+        <TextView
+            style="@style/texformu"
+            android:layout_marginTop="70dp"
+            android:hint="Su usuario">
+
+        </TextView>
+
+        <TextView
+            style="@style/texformu"
+            android:layout_marginTop="190dp"
+            android:hint="Nombre">
+
+        </TextView>
+
+        <TextView
+            style="@style/texformu"
+            android:layout_marginTop="310dp"
+            android:hint="Apellido">
+
+        </TextView>
+
+        <TextView
+            style="@style/texformu"
+            android:layout_marginTop="430dp"
+            android:hint="Telefono">
+
+        </TextView>
+
+        <TextView
+            style="@style/texformu"
+            android:layout_marginTop="545dp"
+            android:hint="Correo">
+
+        </TextView>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/user"
+            style="@style/formu"
+            android:layout_marginTop="120dp"
+            android:hint="@string/user"
+            android:padding="17dp"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/formu"
+                android:layout_marginTop="240dp"
+                android:hint="@string/nombre"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                android:drawablePadding="15dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/formu"
+                android:layout_marginTop="360dp"
+                android:hint="@string/apellido"
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+                android:drawablePadding="15dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/formu"
+                android:layout_marginTop="480dp"
+                android:hint="@string/telefono"
+                android:inputType="phone"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="15dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/formu"
+                android:layout_marginTop="590dp"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="15dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.google.android.material.button.MaterialButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

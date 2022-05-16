@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DeliberyDarwin</string>
+    <string name="user">Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="loggin">LOGIN</string>
+    <string name="user_loggin">Ingresar</string>
+</resources>
